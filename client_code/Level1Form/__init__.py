@@ -17,7 +17,7 @@ class Level1Form(Level1FormTemplate):
 
   def login_button_click(self, **event_args):
     username = self.username_box.text
-    password = self_password_box.text
+    password = self.password_box.text
 
     if not username or not password:
       anvil.alert("Bitte fülle beide Felder aus!", title="Fehler")

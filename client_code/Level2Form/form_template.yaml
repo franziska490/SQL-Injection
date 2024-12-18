@@ -8,7 +8,8 @@ components:
     name: password_box
     properties: {}
     type: TextBox
-  - layout_properties: {grid_position: 'MJQNGO,UEXZPT'}
+  - event_bindings: {click: login_button_click}
+    layout_properties: {grid_position: 'MJQNGO,UEXZPT'}
     name: login_button
     properties: {text: Login}
     type: Button
